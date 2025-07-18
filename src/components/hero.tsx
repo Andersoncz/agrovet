@@ -38,11 +38,10 @@ export function Hero(){
                         </p>
                         <div>
                             <a href="#"
-                            className="inline-block bg-green-500 text-white px-6 py-3 mt-6 rounded-md hover:bg-green-700 transition-colors font-semibold items-center justify-center w-fit">
-                                
-                                <WhatsappLogo className='w-5 h-5'/>
+                            className=" bg-green-500 text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md hover:bg-green-700">
+                            <WhatsappLogo className='w-5 h-5'/>
                                 Contato via WhatsApp
-                            </a>
+                    </a>
                         </div>
                         <div className="mt-8">
                             <p className="text-sm mb-4">
@@ -55,11 +54,15 @@ export function Hero(){
                         <Image
                             src={cavaloImg}
                             alt="Cavalo" 
-                            className='object-contain shadow-'
+                            className='object-contain '
                             fill
-                            sizes='(max-wibth: 768px) 0vw, 50vw'
+                            sizes='(max-width: 768px) 0vw, 50vw'
                             />
                         </div>
+
+                        
+
+                        
     
                     </article>
                 </div>
