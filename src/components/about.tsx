@@ -28,15 +28,7 @@ export function About () {
                     />
                 </div>
 
-                <div className="absolute w-40 h-40 left-4 -bottom-8 border-4 overflow-hidden   border-amber-200 rounded-lg">
-                    <Image
-                    src={cavpreto}
-                    alt="foto nelore"
-                    fill
-                    quality={100}
-                    priority
-                    />
-                </div>
+                
                 </div>
 
                 <div className="space-y-6 mt-10">
@@ -50,6 +42,8 @@ Com estrutura moderna e atendimento humanizado, garantimos diagnósticos preciso
 
 Seu parceiro de confiança na saúde animal!
                     </p>
+
+                   
                     
                     <ul className="space-y-4 ">
                         <li className="flex items-center gap-2">
@@ -66,15 +60,7 @@ Seu parceiro de confiança na saúde animal!
                         </li>
                     </ul>
 
-                    <div className="absolute w-60 h-60 right-4 -bottom-20   lg:opacity-60  ">
-                    <Image
-                    src={cavalo2}
-                    alt="cavalo2"
-                    fill
-                    quality={100}
-                    priority
-                    />
-                </div>
+                    
 
                     <div className="flex gap-2">
                     <a href="#"
@@ -87,6 +73,18 @@ Seu parceiro de confiança na saúde animal!
                             <MapPin className='w-5 h-5 bg-amber-400'/>
                                 Contato via WhatsApp
                     </a>
+
+                     <div className="absolute w-60 h-60  right-4 bottom-0">   
+                    <Image
+                    src={cavalo2}
+                    alt="cavalo2"
+                    fill
+                    quality={100}
+                    priority
+                    />
+                </div>
+
+                    
                     </div>
                 </div>
 
